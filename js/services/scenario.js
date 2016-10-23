@@ -87,6 +87,7 @@ function loadScenario() {
             goal.push(new component(40,40,"yellow", 200,120));
             goal.push(new component(40,40,"yellow", 280,120));
             goal.push(new component(40,40,"yellow", 240,80));
+            break;
         case 6:
             ctx = scenario.context;
             ctx.font="40px Tahoma";

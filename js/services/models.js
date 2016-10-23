@@ -1,5 +1,5 @@
 
-var box=[], goal=[], walls = [], currentScenario=0, score, patternBox, patternMario ;
+var box=[], goal=[], walls = [], currentScenario=5, score, patternBox, patternMario ;
 
 function startGame() {
         scenario.start();
