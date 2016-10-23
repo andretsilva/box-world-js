@@ -107,6 +107,7 @@ function loadScenario() {
             ctx.strokeText("You finished the game!",10,100);
             ctx.fillText("You finished the game!", 10, 100);
             break;
+        
                
     }
 }
@@ -133,8 +134,6 @@ var scenario = {
                 box.push(new component(40, 40, patternBox, 120, 160));
                 you = new component(40, 40, patternMario,120,40);
                 break;
-            case 6:
-                break;
             case 5:
                 box.push(new component(40, 40, patternBox, 80, 80));
                 box.push(new component(40, 40, patternBox, 160, 80));
@@ -142,14 +141,19 @@ var scenario = {
                 box.push(new component(40, 40, patternBox, 160, 160));
                 you = new component(40, 40, patternMario,120,120);
                 break;
+            case 6:
+                
+                break;
+            case 7:
+                
+                break;
             default:
                 box.push(new component(40, 40, patternBox, 40, 40));
                 you = new component(40, 40, patternMario,0,0);
+                
                 break;
-            
-        }
+            }
            
-            loadScenario();
             
         },
     clear : function() {
