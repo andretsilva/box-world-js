@@ -67,7 +67,7 @@ function component(width, height, color, x, y) {
                 }
                 
                 
-                if(boxInGoal == goal.length) scenario.goNext();
+                if(boxInGoal == goal.length && currentScenario < 6) scenario.goNext();
 
         
         
