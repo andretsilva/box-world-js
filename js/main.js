@@ -1,3 +1,5 @@
+
+document.onload = function() {
 requirejs(["services/scenario"], function(scenario) {
 });
 requirejs(["services/component"], function(component) {
@@ -9,4 +11,4 @@ requirejs(["services/models"], function(util) {
                 startGame();
     
 });
-
+}
